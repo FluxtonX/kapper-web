@@ -4,9 +4,8 @@ import ProductShowcase from "@/components/sections/ProductShowcase";
 import Features from "@/components/sections/Features";
 import HowItWorks from "@/components/sections/HowItWorks";
 import Benefits from "@/components/sections/Benefits";
-import Testimonials from "@/components/sections/Testimonials";
 import ContactCTA from "@/components/sections/ContactCTA";
 
 export default function HomePage() {
-  return <><Hero/><TrustSection/><ProductShowcase/><Features/><HowItWorks/><Benefits/><Testimonials/><ContactCTA/></>;
+  return <><Hero/><TrustSection/><ProductShowcase/><Features/><HowItWorks/><Benefits/><ContactCTA/></>;
 }
